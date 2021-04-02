@@ -84,7 +84,8 @@
         android:layout_marginTop="280dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/zamokxod" />
+        app:srcCompat="@drawable/zamokxod"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -95,7 +96,8 @@
         android:layout_marginTop="440dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/like2" />
+        app:srcCompat="@drawable/like2"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -106,7 +108,56 @@
         android:layout_marginTop="440dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/like" />
+        app:srcCompat="@drawable/like"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/like2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgv2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/like"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/meizixat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

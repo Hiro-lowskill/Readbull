@@ -67,8 +67,8 @@
         android:id="@+id/imageButton6"
         android:layout_width="75dp"
         android:layout_height="50dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginLeft="325dp"
         android:layout_marginTop="10dp"
         android:background="#00FFFFFF"
         android:onClick="btn5"
@@ -93,85 +93,77 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/imageButton15"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/razdva"
-                tools:ignore="ContentDescription,PxUsage" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/imageButton16"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/vnizpovolshebno"
-                tools:ignore="ContentDescription,PxUsage" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/imageButton17"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/giganstka"
-                tools:ignore="ContentDescription,PxUsage" />
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="250px"
+                        android:layout_height="400px"
+                        android:background="#00FFFFFF"
+                        app:srcCompat="@drawable/razdva"
+                        tools:ignore="ContentDescription,PxUsage" />
 
-            <ImageButton
-                android:id="@+id/imageButton7"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/razdva"
-                tools:ignore="ContentDescription,PxUsage" />
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trisveta"
+                        tools:ignore="ContentDescription" />
 
-            <ImageButton
-                android:id="@+id/imageButton10"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/vnizpovolshebno"
-                tools:ignore="ContentDescription,PxUsage" />
+                    <ImageButton
+                        android:id="@+id/imageButton30"
+                        android:layout_width="50dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/square"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
-            <ImageButton
-                android:id="@+id/imageButton18"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/giganstka"
-                tools:ignore="ContentDescription,PxUsage" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/imageButton20"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/razdva"
-                tools:ignore="ContentDescription,PxUsage" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/imageButton19"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/vnizpovolshebno"
-                tools:ignore="ContentDescription,PxUsage" />
+                    <ImageButton
+                        android:id="@+id/imageButton16"
+                        android:layout_width="250px"
+                        android:layout_height="400px"
+                        android:background="#00FFFFFF"
+                        app:srcCompat="@drawable/giganstka"
+                        tools:ignore="ContentDescription,PxUsage" />
 
-            <ImageButton
-                android:id="@+id/imageButton13"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/giganstka"
-                tools:ignore="ContentDescription,PxUsage" />
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/gigdet"
+                        tools:ignore="ContentDescription" />
 
-            <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="250px"
-                android:layout_height="400px"
-                android:background="#00FFFFFF"
-                app:srcCompat="@drawable/razdva"
-                tools:ignore="ContentDescription,PxUsage" />
+                    <ImageButton
+                        android:id="@+id/imageButton31"
+                        android:layout_width="50dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/square"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
         </LinearLayout>
     </ScrollView>
