@@ -1,6 +1,6 @@
 package com.example.readbull.data;
 
-import com.example.animu.data.model.LoggedInUser;
+import com.example.readbull.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and
@@ -10,17 +10,22 @@ public class LoginRepository {
 
     private static volatile LoginRepository instance;
 
-    private com.example.readbull.data.LoginDataSource dataSource;
+    private LoginDataSource dataSource;
 
     // If user credentials will be cached in local storage, it is recommended it be encrypted
     // @see https://developer.android.com/training/articles/keystore
     private LoggedInUser user = null;
 
-
-    public LoginRepository(LoginDataSource dataSource) {
+    // private constructor : singleton access
+    private LoginRepository(LoginDataSource dataSource) {
+        this.dataSource = dataSource;
     }
 
-    public static void getInstance(LoginDataSource loginDataSource) {
+    public static LoginRepository getInstance(LoginDataSource dataSource) {
+        if (instance == null) {
+            instance = new LoginRepository(dataSource);
+        }
+        return instance;
     }
 
     public boolean isLoggedIn() {

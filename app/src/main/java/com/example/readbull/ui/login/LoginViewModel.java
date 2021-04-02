@@ -8,7 +8,7 @@ import android.util.Patterns;
 
 import com.example.readbull.data.LoginRepository;
 import com.example.readbull.data.Result;
-import com.example.animu.data.model.LoggedInUser;
+import com.example.readbull.data.model.LoggedInUser;
 import com.example.readbull.R;
 
 public class LoginViewModel extends ViewModel {
@@ -20,7 +20,6 @@ public class LoginViewModel extends ViewModel {
     LoginViewModel(LoginRepository loginRepository) {
         this.loginRepository = loginRepository;
     }
-
 
     LiveData<LoginFormState> getLoginFormState() {
         return loginFormState;
