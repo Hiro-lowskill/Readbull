@@ -26,7 +26,7 @@ public class panel extends AppCompatActivity {
         finish();
     }
     public void btn3(View view) {
-        Intent i = new Intent(this, me.class);
+        Intent i = new Intent(this, maps.class);
         startActivity(i);
         finish();
     }
