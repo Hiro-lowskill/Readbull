@@ -8,17 +8,6 @@
     android:background="@drawable/backpolzovat">
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/angleleft" />
-
-    <ImageView
         android:id="@+id/imageView9"
         android:layout_width="125dp"
         android:layout_height="30dp"
@@ -27,7 +16,8 @@
         android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pochta" />
+        app:srcCompat="@drawable/pochta"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -38,7 +28,8 @@
         android:layout_marginTop="150dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/password" />
+        app:srcCompat="@drawable/password"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -49,5 +40,19 @@
         android:layout_marginBottom="128dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/sits" />
+        app:srcCompat="@drawable/sits"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/angleleft"
+        tools:ignore="ContentDescription" />
 </androidx.constraintlayout.widget.ConstraintLayout>
