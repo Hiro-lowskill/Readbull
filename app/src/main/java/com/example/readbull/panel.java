@@ -21,7 +21,7 @@ public class panel extends AppCompatActivity {
         finish();
     }
     public void btn2(View view) {
-        Intent i = new Intent(this, glavni.class);
+        Intent i = new Intent(this, conkyrs.class);
         startActivity(i);
         finish();
     }
