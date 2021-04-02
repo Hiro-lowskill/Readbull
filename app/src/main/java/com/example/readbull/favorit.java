@@ -38,7 +38,7 @@ public class favorit extends AppCompatActivity {
         finish();
     }
     public void btn5(View view) {
-        Intent i = new Intent(this, book.class);
+        Intent i = new Intent(this, malenkiprin.class);
         startActivity(i);
         finish();
     }
