@@ -16,7 +16,7 @@ public class panel extends AppCompatActivity {
         setContentView(R.layout.activity_panel);
     }
     public void btn1(View view) {
-        Intent i = new Intent(this, glavni.class);
+        Intent i = new Intent(this, me.class);
         startActivity(i);
         finish();
     }

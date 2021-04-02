@@ -14,6 +14,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="225dp"
+        android:onClick="btn3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/map"
@@ -39,6 +40,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="275dp"
+        android:onClick="btn4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/help"
@@ -51,7 +53,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="125dp"
-        android:onClick="btn3"
+        android:onClick="btn1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/polzovat"
@@ -67,7 +69,8 @@
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/screenglav" />
+        app:srcCompat="@drawable/screenglav"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/imageButton27"
@@ -77,8 +80,10 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="175dp"
         android:background="#00FFFFFF"
+        android:onClick="btn2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/conk" />
+        app:srcCompat="@drawable/conk"
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

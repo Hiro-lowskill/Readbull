@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.readbull.data.book;
+
 @SuppressLint("Registered")
 public class favorit extends AppCompatActivity {
 
@@ -36,7 +38,7 @@ public class favorit extends AppCompatActivity {
         finish();
     }
     public void btn5(View view) {
-        Intent i = new Intent(this, money.class);
+        Intent i = new Intent(this, book.class);
         startActivity(i);
         finish();
     }
