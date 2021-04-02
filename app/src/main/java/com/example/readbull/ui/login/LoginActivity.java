@@ -1,9 +1,9 @@
-package com.example.animu.ui.login;
+package com.example.readbull.ui.login;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,11 +23,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.animu.R;
-import com.example.animu.glavni;
-import com.example.animu.ui.login.LoginViewModel;
-import com.example.animu.ui.login.LoginViewModelFactory;
+import com.example.readbull.R;
+import com.example.readbull.glavni;
 
+@SuppressLint("Registered")
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
@@ -36,8 +35,6 @@ public class LoginActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
-                .get(LoginViewModel.class);
 
         final EditText usernameEditText = findViewById(R.id.username);
         final EditText passwordEditText = findViewById(R.id.password);

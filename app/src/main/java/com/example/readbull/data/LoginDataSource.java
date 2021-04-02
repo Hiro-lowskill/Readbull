@@ -1,4 +1,4 @@
-package com.example.animu.data;
+package com.example.readbull.data;
 
 import com.example.animu.data.model.LoggedInUser;
 

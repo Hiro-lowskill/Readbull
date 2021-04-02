@@ -1,9 +1,11 @@
-package com.example.animu;
+package com.example.readbull;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
+@SuppressLint("Registered")
 public class me extends AppCompatActivity {
 
     @Override

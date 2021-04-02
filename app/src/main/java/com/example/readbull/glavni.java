@@ -1,11 +1,15 @@
-package com.example.animu;
+package com.example.readbull;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.readbull.R;
+
+@SuppressLint("Registered")
 public class glavni extends AppCompatActivity {
 
     @Override

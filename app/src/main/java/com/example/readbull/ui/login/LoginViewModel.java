@@ -1,4 +1,4 @@
-package com.example.animu.ui.login;
+package com.example.readbull.ui.login;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.example.animu.data.LoginRepository;
-import com.example.animu.data.Result;
+import com.example.readbull.data.LoginRepository;
+import com.example.readbull.data.Result;
 import com.example.animu.data.model.LoggedInUser;
-import com.example.animu.R;
+import com.example.readbull.R;
 
 public class LoginViewModel extends ViewModel {
 
@@ -20,6 +20,7 @@ public class LoginViewModel extends ViewModel {
     LoginViewModel(LoginRepository loginRepository) {
         this.loginRepository = loginRepository;
     }
+
 
     LiveData<LoginFormState> getLoginFormState() {
         return loginFormState;

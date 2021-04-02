@@ -1,4 +1,4 @@
-package com.example.animu.ui.login;
+package com.example.readbull.ui.login;
 
 import androidx.annotation.Nullable;
 
